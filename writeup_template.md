@@ -125,6 +125,8 @@ I finally merged both the datasets and trained the model using the generator to 
 
 To be more precise, ~22000/64 times.
 
+Since Adam optimizer was used to learning rate is not defined and I decided to go with the default learning rate.
+
 #### 4. Preprocessing
 
 I normalized the input images and adjusted the left and right camera angle values. Also I cropped the images from top and bottom to remove the unnecessary parts of the image.
