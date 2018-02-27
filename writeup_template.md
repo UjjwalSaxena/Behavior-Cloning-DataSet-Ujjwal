@@ -90,7 +90,7 @@ At the end of the process, the vehicle is able to drive autonomously around the 
 
 #### 2. Final Model Architecture
 
-**Here is a visualization of the architecture I am using**
+**Here is the summary of the architecture I am using**
 
 ![alt text][image1]
 
