@@ -12,14 +12,14 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./writupImages/architectureSummary.PNG "Model Visualization"
-[image2]: ./writupImages/center_2018_02_26_20_55_35_140.jpg "Recovery"
-[image3]: ./writupImages/center_2018_02_26_21_08_58_074.jpg "Recovery Image"
-[image4]: ./writupImages/flipped.jpg "flipped Image"
-[image5]: ./writupImages/nvidiaArch.png "nvidiaArch Image"
-[image6]: ./writupImages/original.jpg "orig Image"
-[image7]: ./writupImages/right_2018_02_26_20_56_15_487.jpg "recovery Image"
-[image8]: ./writupImages/right_2018_02_26_21_08_58_644.jpg "recovery Image"
+[image1]: ./writeupImages/architectureSummary.PNG "Model Visualization"
+[image2]: ./writeupImages/center_2018_02_26_20_55_35_140.jpg "Recovery"
+[image3]: ./writeupImages/center_2018_02_26_21_08_58_074.jpg "Recovery Image"
+[image4]: ./writeupImages/flipped.jpg "flipped Image"
+[image5]: ./writeupImages/nvidiaArch.png "nvidiaArch Image"
+[image6]: ./writeupImages/original.jpg "orig Image"
+[image7]: ./writeupImages/right_2018_02_26_20_56_15_487.jpg "recovery Image"
+[image8]: ./writeupImages/right_2018_02_26_21_08_58_644.jpg "recovery Image"
 
 ### Files Submitted & Code Quality
 
@@ -124,6 +124,8 @@ Then I repeated this process on track two in order to get more data points.
 I finally merged both the datasets and trained the model using the generator to do load and augmentation. A batch of 64 lines had 3 images per line. After flipping each of these images, 64X3X2 images were generated per batch and this batch was called many times during an epoch.
 
 To be more precise, ~22000/64 times.
+
+Since Adam optimizer was used to learning rate is not defined and I decided to go with the default learning rate.
 
 #### 4. Preprocessing
 
